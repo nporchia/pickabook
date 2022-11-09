@@ -1,0 +1,63 @@
+ul li img{
+    width: 30%;
+    height: 150px;
+    
+}
+ul li :hover{
+    opacity: 80%;
+}
+#reservados li img{
+    width: 30%;
+    height: 150px;
+    opacity: 50%;
+
+ 
+}
+@media (max-width: 600px) {
+    ul li img{
+        width: 50%;
+        height: 150px;
+        
+    }
+    ul li :hover{
+        opacity: 80%;
+    }
+    #reservados li img{
+        width: 50%;
+        height: 150px;
+        opacity: 50%;
+    
+     
+    }
+}
+#disponibles{
+    height: 390px;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+#reservados{
+    border: 3px solid rgb(255, 255, 255);
+    width: 50%;
+    height: 390px;
+}
+#reservados li {
+    display: none;
+}
+
+h2{
+    color: white;
+    
+}
+h1{
+    color: white;
+    
+}
+p{
+    color: white;
+}
+.librosfondo{
+    background-image: url("librosfondo.png");
+    width: 100%;
+    height: 150px;
+    background-attachment: fixed;
+}
